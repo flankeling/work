@@ -2,7 +2,7 @@ const { spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = "55555";
+const PORT = "8080";
 const pwd = __dirname;
 const filePath = path.join(pwd, '.npm');
 
